@@ -25,6 +25,7 @@
 #include "board.h"
 #include "block.h"
 #include "piece.h"
+#include "game.h"
 
 board_s new_board()
 {

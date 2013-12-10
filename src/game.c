@@ -307,17 +307,13 @@ void game_update_speed(game_s* g)
 	{
 	case 0:	 g->speed = INITIAL_SPEED; break; /* 1000ms */
 	case 10: g->speed = 900;
-	        	make_line(b); break;
+			make_line(b); break;
 	case 35: g->speed = 750;  break;
-	        	make_line(b); break;
 	case 55: g->speed = 600;  break;
-	        	make_line(b); break;
 	case 75: g->speed = 450;  break;
 	        	make_line(b); break;
 	case 95: g->speed = 300;  break;
-	        	make_line(b); break;
 	case 115: g->speed = 150;  break;
-	        	make_line(b); break;
 	case 150: g->speed = 100;  break;
 	        	make_line(b); break;
 	default: g->speed = g->speed; break;
